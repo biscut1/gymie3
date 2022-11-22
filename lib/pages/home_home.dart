@@ -65,7 +65,7 @@ class _HomeHomeState extends State<HomeHome> {
         ),
         backgroundColor: Colors.transparent,
         title: Text(
-          'lets lift',
+          'lets lift trial',
           style: TextStyle(
             color: Colors.redAccent,
           ),
