@@ -1,3 +1,4 @@
+//the home page 
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:gymie/app_bar_pages/notifications_page.dart';
