@@ -1,4 +1,4 @@
-//the home page 
+//the home page has new changes now hope it appears on git hub
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:gymie/app_bar_pages/notifications_page.dart';
