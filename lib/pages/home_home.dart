@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:gymie/app_bar_pages/notifications_page.dart';
 import 'package:gymie/gnavpages/gnav_home.dart';
-import 'package:gymie/gnavpages/gnav_settings.dart';
+import 'package:gymie/gnavpages/gnav_fit.dart';
 import 'package:gymie/gnavpages/gnav_shop.dart';
 import 'package:gymie/gnavpages/gnav_wallet.dart';
 import 'package:gymie/pages/login_page.dart';
@@ -30,8 +30,8 @@ class _HomeHomeState extends State<HomeHome> {
   final List<Widget> _gnavpages = [
     GnavHome(),
     GnavWallet(),
+    GnavFit(),
     GnavShop(),
-    GnavSettings(),
   ];
   @override
   Widget build(BuildContext context) {
